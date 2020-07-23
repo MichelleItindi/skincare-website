@@ -1,0 +1,70 @@
+body{
+  background-image: url( cute.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  border: 0px;
+  margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:pink;
+    font-size: 18px;
+}
+.logo{
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+#p1{
+    color: blue;
+}
+.center{
+    color: crimson;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  
